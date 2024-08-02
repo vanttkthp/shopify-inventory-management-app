@@ -1,4 +1,4 @@
-# Shopify Product Search App Demo
+# Shopify Inventory Management App Demo
 
 Demo Shopify Application that adds a Product search and selection page to the admin area.
 
