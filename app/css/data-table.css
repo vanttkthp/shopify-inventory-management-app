@@ -1,0 +1,19 @@
+.data-table th button, .data-table-review th button {
+    font-weight: 500;
+}
+.data-table thead tr th:first-child {
+    width: 32px;
+    max-width: 32px;
+    padding-left: 0.6rem;
+}
+.data-table thead tr th:first-child button {
+    padding: 0.4rem 0.8rem;
+}
+.data-table thead tr th:nth-child(2) {
+    width: 64px;
+    max-width: 64px;
+}
+.data-table-review thead tr th:first-child {
+    width: 64px;
+    max-width: 64px;
+}

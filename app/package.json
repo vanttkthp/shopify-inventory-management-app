@@ -1,0 +1,48 @@
+{
+  "name": "shopify-product-search-app",
+  "version": "0.0.1",
+  "description": "Demo Shopify Application that adds a Product search and selection page to the admin area",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "cross-env NODE_ENV=production node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@emailjs/browser": "^4.4.1",
+    "@shopify/app-bridge-react": "^1.28.0",
+    "@shopify/koa-shopify-auth": "^3.1.72",
+    "@shopify/koa-shopify-graphql-proxy": "^3.3.1",
+    "@shopify/koa-shopify-webhooks": "^2.5.2",
+    "@shopify/polaris": "^4.27.0",
+    "@zeit/next-css": "^1.0.1",
+    "apollo-boost": "^0.4.9",
+    "axios": "^1.7.2",
+    "child_process": "^1.0.2",
+    "dotenv": "^8.2.0",
+    "emailjs": "^4.0.3",
+    "graphql": "^14.7.0",
+    "isomorphic-fetch": "^2.2.1",
+    "js-cookie": "^2.2.1",
+    "koa": "^2.13.0",
+    "koa-bodyparser": "^4.4.1",
+    "koa-router": "^8.0.8",
+    "koa-session": "^5.13.1",
+    "koa2-cors": "^2.0.6",
+    "next": "^9.5.5",
+    "node-cron": "^3.0.3",
+    "nodemailer": "^6.9.14",
+    "react": "^16.14.0",
+    "react-apollo": "^3.1.5",
+    "react-dom": "^16.14.0",
+    "store-js": "^2.0.4",
+    "use-ssr": "^1.0.23"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2"
+  }
+}
