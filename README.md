@@ -21,6 +21,7 @@ Demo Shopify Application that adds a Product search and selection page to the ad
 
 ## Setup
 
+https://youtu.be/JK9lE-xZ6Ps
 To install the application as a Shopify store, it needs to have a valid web address.
 A tool such as ngrok can be used to create a web tunnel to a local server.
 
